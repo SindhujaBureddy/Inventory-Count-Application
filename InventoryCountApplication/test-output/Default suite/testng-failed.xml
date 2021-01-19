@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.testcases.Lot_number_items_testcases">
+        <methods>
+          <include name="lot_number_processing" invocation-numbers="0"/>
+          <include name="Invalid_data"/>
+          <include name="Without_lot_number"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="bin_mismatch"/>
+          <include name="setExtent"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.testcases.Lot_number_items_testcases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

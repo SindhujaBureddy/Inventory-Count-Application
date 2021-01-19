@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1636327" started-at="2020-12-24T09:27:13Z" finished-at="2020-12-24T09:54:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1636327" started-at="2020-12-24T09:27:13Z" finished-at="2020-12-24T09:54:30Z">
+      <class name="com.qa.testcases.Lot_number_items_testcases">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setExtent" is-config="true" duration-ms="262" started-at="2020-12-24T09:27:13Z" finished-at="2020-12-24T09:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="17738" started-at="2020-12-24T09:27:14Z" finished-at="2020-12-24T09:27:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="lot_number_processing" duration-ms="178947" started-at="2020-12-24T09:27:32Z" data-provider="lot_number_processing" finished-at="2020-12-24T09:30:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Numbered WO Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lotwobin001]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[zero quantity and existing lot number without bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[lotwobin001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lot_number_processing -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="770" started-at="2020-12-24T09:30:31Z" finished-at="2020-12-24T09:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="17305" started-at="2020-12-24T09:30:32Z" finished-at="2020-12-24T09:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="lot_number_processing" duration-ms="63019" started-at="2020-12-24T09:30:49Z" data-provider="lot_number_processing" finished-at="2020-12-24T09:31:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Numbered WO Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Banglore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lotwobin002]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Adding  lot numbers  to the location without any lot nrs before without bin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lot_number_processing -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="762" started-at="2020-12-24T09:31:52Z" finished-at="2020-12-24T09:31:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="15551" started-at="2020-12-24T09:31:53Z" finished-at="2020-12-24T09:32:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="lot_number_processing" duration-ms="65110" started-at="2020-12-24T09:32:08Z" data-provider="lot_number_processing" finished-at="2020-12-24T09:33:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Numbered WO Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lotwobin003,lotwobin004]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1,1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Adding new lot numbers without bin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lot_number_processing -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="749" started-at="2020-12-24T09:33:13Z" finished-at="2020-12-24T09:33:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="15713" started-at="2020-12-24T09:33:14Z" finished-at="2020-12-24T09:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="lot_number_processing" duration-ms="68193" started-at="2020-12-24T09:33:30Z" data-provider="lot_number_processing" finished-at="2020-12-24T09:34:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Inventory_Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bin1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lotwbin005,lotwbin006]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2,2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Adding new lot numbers with bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lot_number_processing -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="754" started-at="2020-12-24T09:34:38Z" finished-at="2020-12-24T09:34:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="15776" started-at="2020-12-24T09:34:39Z" finished-at="2020-12-24T09:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="lot_number_processing" duration-ms="64985" started-at="2020-12-24T09:34:55Z" data-provider="lot_number_processing" finished-at="2020-12-24T09:36:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Inventory_Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney_1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lotwbin007]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[adding lot number item to new location with bin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lot_number_processing -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="781" started-at="2020-12-24T09:36:00Z" finished-at="2020-12-24T09:36:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="17242" started-at="2020-12-24T09:36:00Z" finished-at="2020-12-24T09:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="lot_number_processing" duration-ms="180019" started-at="2020-12-24T09:36:18Z" data-provider="lot_number_processing" finished-at="2020-12-24T09:39:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Inventory_Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bin1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lotwbin008]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[zero quantity and existing lot number with bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[lotwbin008]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lot_number_processing -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="845" started-at="2020-12-24T09:39:18Z" finished-at="2020-12-24T09:39:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="18241" started-at="2020-12-24T09:39:18Z" finished-at="2020-12-24T09:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="lot_number_processing" duration-ms="71433" started-at="2020-12-24T09:39:37Z" data-provider="lot_number_processing" finished-at="2020-12-24T09:40:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Inventory_Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bin2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lotwbin005,lotwbin006]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2,2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[same lot numbers in different bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lot_number_processing -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="747" started-at="2020-12-24T09:40:48Z" finished-at="2020-12-24T09:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_processing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="15255" started-at="2020-12-24T09:40:49Z" finished-at="2020-12-24T09:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Without_lot_number(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Without_lot_number" duration-ms="23434" started-at="2020-12-24T09:41:04Z" data-provider="Without_lot_number" finished-at="2020-12-24T09:41:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Numbered WO Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[without giving serial numbers for item without bins]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Without_lot_number -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="876" started-at="2020-12-24T09:41:28Z" finished-at="2020-12-24T09:41:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Without_lot_number status=SUCCESS method=Lot_number_items_testcases.Without_lot_number(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="16766" started-at="2020-12-24T09:41:29Z" finished-at="2020-12-24T09:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Without_lot_number(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Without_lot_number" duration-ms="23917" started-at="2020-12-24T09:41:45Z" data-provider="Without_lot_number" finished-at="2020-12-24T09:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Inventory_Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bin1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[without giving serial numbers for item with bins]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Without_lot_number -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="752" started-at="2020-12-24T09:42:09Z" finished-at="2020-12-24T09:42:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Without_lot_number status=SUCCESS method=Lot_number_items_testcases.Without_lot_number(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="17806" started-at="2020-12-24T09:42:10Z" finished-at="2020-12-24T09:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Invalid_data" duration-ms="47005" started-at="2020-12-24T09:42:28Z" data-provider="Invalid_data" finished-at="2020-12-24T09:43:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Numbered WO Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chennailot]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Zero quantity and existing lot number from other location without bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[If the physical Qty is zero you should give only existing lot item numbers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_data -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="756" started-at="2020-12-24T09:43:15Z" finished-at="2020-12-24T09:43:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="14955" started-at="2020-12-24T09:43:16Z" finished-at="2020-12-24T09:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Invalid_data" duration-ms="46616" started-at="2020-12-24T09:43:31Z" data-provider="Invalid_data" finished-at="2020-12-24T09:44:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Numbered WO Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lot200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1,2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Quantity mismatch without bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#The LotNumber Physical Qty and Lot Numbers are not matching]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_data -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="755" started-at="2020-12-24T09:44:17Z" finished-at="2020-12-24T09:44:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="17128" started-at="2020-12-24T09:44:18Z" finished-at="2020-12-24T09:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Invalid_data" duration-ms="44242" started-at="2020-12-24T09:44:35Z" data-provider="Invalid_data" finished-at="2020-12-24T09:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Numbered WO Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lot200,lot300]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Lot numbers mismatch without bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#The LotNumber Physical Qty and Lot Numbers are not matching]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_data -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="724" started-at="2020-12-24T09:45:19Z" finished-at="2020-12-24T09:45:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="14951" started-at="2020-12-24T09:45:20Z" finished-at="2020-12-24T09:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Invalid_data" duration-ms="42771" started-at="2020-12-24T09:45:35Z" data-provider="Invalid_data" finished-at="2020-12-24T09:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Numbered WO Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lot200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Negative quantity without bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#Physical Quantities should not be negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_data -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="766" started-at="2020-12-24T09:46:18Z" finished-at="2020-12-24T09:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="17313" started-at="2020-12-24T09:46:19Z" finished-at="2020-12-24T09:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Invalid_data" duration-ms="45552" started-at="2020-12-24T09:46:36Z" data-provider="Invalid_data" finished-at="2020-12-24T09:47:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Inventory_Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bin1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lotwbin007]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Zero quantity and existing lot number from other location with bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#If the physical Qty is zero you should give only existing lot item numbers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_data -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="791" started-at="2020-12-24T09:47:21Z" finished-at="2020-12-24T09:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="19596" started-at="2020-12-24T09:47:22Z" finished-at="2020-12-24T09:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Invalid_data" duration-ms="53578" started-at="2020-12-24T09:47:42Z" data-provider="Invalid_data" finished-at="2020-12-24T09:48:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Inventory_Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bin1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lot1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Negative quantity with bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#Physical Quantities should not be negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_data -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="766" started-at="2020-12-24T09:48:35Z" finished-at="2020-12-24T09:48:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="15104" started-at="2020-12-24T09:48:36Z" finished-at="2020-12-24T09:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Invalid_data" duration-ms="43136" started-at="2020-12-24T09:48:51Z" data-provider="Invalid_data" finished-at="2020-12-24T09:49:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Inventory_Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bin1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lot1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1,2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Quantity mismatch with bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#The LotNumber Physical Qty and Lot Numbers are not matching]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_data -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="735" started-at="2020-12-24T09:49:34Z" finished-at="2020-12-24T09:49:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="16079" started-at="2020-12-24T09:49:35Z" finished-at="2020-12-24T09:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Invalid_data" duration-ms="41908" started-at="2020-12-24T09:49:51Z" data-provider="Invalid_data" finished-at="2020-12-24T09:50:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Inventory_Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bin1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lot1,lot2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Lot numbers mismatch with bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#The LotNumber Physical Qty and Lot Numbers are not matching]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_data -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="716" started-at="2020-12-24T09:50:33Z" finished-at="2020-12-24T09:50:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="15257" started-at="2020-12-24T09:50:34Z" finished-at="2020-12-24T09:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Invalid_data" duration-ms="41465" started-at="2020-12-24T09:50:49Z" data-provider="Invalid_data" finished-at="2020-12-24T09:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Inventory_Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bin1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[newlotwithbinzero]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Zero quantity and new lot number with bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#If the physical Qty is zero you should give only existing lot item numbers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_data -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="742" started-at="2020-12-24T09:51:31Z" finished-at="2020-12-24T09:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="17758" started-at="2020-12-24T09:51:31Z" finished-at="2020-12-24T09:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Invalid_data" duration-ms="44801" started-at="2020-12-24T09:51:49Z" data-provider="Invalid_data" finished-at="2020-12-24T09:52:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Numbered WO Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bin1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lotnotbin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Giving bin for non bin item]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#This Item is not using bins,Please remove the bins]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_data -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="721" started-at="2020-12-24T09:52:34Z" finished-at="2020-12-24T09:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="17061" started-at="2020-12-24T09:52:35Z" finished-at="2020-12-24T09:52:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="Invalid_data" duration-ms="41885" started-at="2020-12-24T09:52:52Z" data-provider="Invalid_data" finished-at="2020-12-24T09:53:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Numbered WO Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[newlotwithzero]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Zero quantity with new lot number without bins]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[If the physical Qty is zero you should give only existing lot item numbers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_data -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="739" started-at="2020-12-24T09:53:34Z" finished-at="2020-12-24T09:53:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="setUp" is-config="true" duration-ms="16021" started-at="2020-12-24T09:53:34Z" finished-at="2020-12-24T09:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bin_mismatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="bin_mismatch" duration-ms="37868" started-at="2020-12-24T09:53:50Z" data-provider="bin_mismatch" finished-at="2020-12-24T09:54:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lot Inventory_Bins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney_1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lottest1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[invalid bin& without giving bin testcase]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bin_mismatch -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="tearDown" is-config="true" duration-ms="753" started-at="2020-12-24T09:54:28Z" finished-at="2020-12-24T09:54:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bin_mismatch status=SUCCESS method=Lot_number_items_testcases.bin_mismatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.qa.testcases.Lot_number_items_testcases@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.testcases.Lot_number_items_testcases@59494225]" name="endReport" is-config="true" duration-ms="570" started-at="2020-12-24T09:54:29Z" finished-at="2020-12-24T09:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.qa.testcases.Lot_number_items_testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

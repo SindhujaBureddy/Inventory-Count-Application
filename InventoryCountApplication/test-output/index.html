@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Sindhuja\AppData\Local\Temp\testng-eclipse--207884923\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1, 1,2, Quantity mismatch with bins, #The LotNumber Physical...)">Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1, 1,2, Quantity mismatch with bins, #The LotNumber Physical...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200, 1,2, Quantity mismatch without bins, #The LotNumber Physi...)">Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200, 1,2, Quantity mismatch without bins, #The LotNumber Physi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1,lot2, 1, Lot numbers mismatch with bins, #The LotNumber Ph...)">Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1,lot2, 1, Lot numbers mismatch with bins, #The LotNumber Ph...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Invalid_data(Lot Numbered WO Bins, Hyderabad, , newlotwithzero, 0, Zero quantity with new lot number without bins...)">Invalid_data(Lot Numbered WO Bins, Hyderabad, , newlotwithzero, 0, Zero quantity with new lot number without bins...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1, -1, Negative quantity with bins, #Physical Quantities sho...)">Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1, -1, Negative quantity with bins, #Physical Quantities sho...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, newlotwithbinzero, 0, Zero quantity and new lot number with bin...)">Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, newlotwithbinzero, 0, Zero quantity and new lot number with bin...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200,lot300, 1, Lot numbers mismatch without bins, #The LotNumb...)">Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200,lot300, 1, Lot numbers mismatch without bins, #The LotNumb...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Invalid_data(Lot Numbered WO Bins, Hyderabad, Bin1, lotnotbin, 1, Giving bin for non bin item, #This Item is not ...)">Invalid_data(Lot Numbered WO Bins, Hyderabad, Bin1, lotnotbin, 1, Giving bin for non bin item, #This Item is not ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Invalid_data(Lot Numbered WO Bins	, Hyderabad, , chennailot, 0, Zero quantity and existing lot number from other ...)">Invalid_data(Lot Numbered WO Bins	, Hyderabad, , chennailot, 0, Zero quantity and existing lot number from other ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lotwbin007, 0, Zero quantity and existing lot number from other...)">Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lotwbin007, 0, Zero quantity and existing lot number from other...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200, -1, Negative quantity without bins, 	#Physical Quantities...)">Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200, -1, Negative quantity without bins, 	#Physical Quantities...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Without_lot_number(Lot Inventory_Bins, Hyderabad, Bin1, , 1, without giving serial numbers for item with bins)">Without_lot_number(Lot Inventory_Bins, Hyderabad, Bin1, , 1, without giving serial numbers for item with bins)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="Without_lot_number(Lot Numbered WO Bins	, Hyderabad, , , 1, without giving serial numbers for item without bins)">Without_lot_number(Lot Numbered WO Bins	, Hyderabad, , , 1, without giving serial numbers for item without bins)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="bin_mismatch(Lot Inventory_Bins, Hyderabad	, Sydney_1, lottest1, 1, invalid bin&amp; without giving bin testcase)">bin_mismatch(Lot Inventory_Bins, Hyderabad	, Sydney_1, lottest1, 1, invalid bin& without giving bin testcase)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="lot_number_processing(Lot Inventory_Bins, Sydney, Sydney_1, lotwbin007, 1, adding lot number item to new location with bin...)">lot_number_processing(Lot Inventory_Bins, Sydney, Sydney_1, lotwbin007, 1, adding lot number item to new location with bin...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="lot_number_processing(Lot Numbered WO Bins, Hyderabad, , lotwobin001, 1, zero quantity and existing lot number without bin...)">lot_number_processing(Lot Numbered WO Bins, Hyderabad, , lotwobin001, 1, zero quantity and existing lot number without bin...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="lot_number_processing(Lot Numbered WO Bins, Hyderabad, , lotwobin003,lotwobin004, 1,1, Adding new lot numbers without bin,...)">lot_number_processing(Lot Numbered WO Bins, Hyderabad, , lotwobin003,lotwobin004, 1,1, Adding new lot numbers without bin,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="lot_number_processing(Lot Numbered WO Bins	, Banglore, , lotwobin002, 1, Adding  lot numbers  to the location without any ...)">lot_number_processing(Lot Numbered WO Bins	, Banglore, , lotwobin002, 1, Adding  lot numbers  to the location without any ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="lot_number_processing(Lot Inventory_Bins, Hyderabad	, Bin2, lotwbin005,lotwbin006, 2,2, same lot numbers in different bins...)">lot_number_processing(Lot Inventory_Bins, Hyderabad	, Bin2, lotwbin005,lotwbin006, 2,2, same lot numbers in different bins...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="lot_number_processing(Lot Inventory_Bins	, Hyderabad	, Bin1, lotwbin005,lotwbin006, 2,2, Adding new lot numbers with bins,...)">lot_number_processing(Lot Inventory_Bins	, Hyderabad	, Bin1, lotwbin005,lotwbin006, 2,2, Adding new lot numbers with bins,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.testcases.Lot_number_items_testcases" hash-for-method="lot_number_processing(Lot Inventory_Bins	, Hyderabad	, Bin1, lotwbin008, 1, zero quantity and existing lot number with bin...)">lot_number_processing(Lot Inventory_Bins	, Hyderabad	, Bin1, lotwbin008, 1, zero quantity and existing lot number with bin...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testcases.Lot_number_items_testcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1, 1,2, Quantity mismatch with bins, #The LotNumber Physical...)">
+                  </a> <!-- Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1, 1,2, Quantity mismatch with bins, #The LotNumber Physical...) -->
+                  <span class="method-name">Invalid_data</span>
+                  <span class="parameters">(Lot Inventory_Bins, Hyderabad, Bin1, lot1, 1,2, Quantity mismatch with bins, #The LotNumber Physical Qty and Lot Numbers are not matching)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200, 1,2, Quantity mismatch without bins, #The LotNumber Physi...)">
+                  </a> <!-- Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200, 1,2, Quantity mismatch without bins, #The LotNumber Physi...) -->
+                  <span class="method-name">Invalid_data</span>
+                  <span class="parameters">(Lot Numbered WO Bins, Hyderabad, , lot200, 1,2, Quantity mismatch without bins, #The LotNumber Physical Qty and Lot Numbers are not matching)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1,lot2, 1, Lot numbers mismatch with bins, #The LotNumber Ph...)">
+                  </a> <!-- Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1,lot2, 1, Lot numbers mismatch with bins, #The LotNumber Ph...) -->
+                  <span class="method-name">Invalid_data</span>
+                  <span class="parameters">(Lot Inventory_Bins, Hyderabad, Bin1, lot1,lot2, 1, Lot numbers mismatch with bins, #The LotNumber Physical Qty and Lot Numbers are not matching)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalid_data(Lot Numbered WO Bins, Hyderabad, , newlotwithzero, 0, Zero quantity with new lot number without bins...)">
+                  </a> <!-- Invalid_data(Lot Numbered WO Bins, Hyderabad, , newlotwithzero, 0, Zero quantity with new lot number without bins...) -->
+                  <span class="method-name">Invalid_data</span>
+                  <span class="parameters">(Lot Numbered WO Bins, Hyderabad, , newlotwithzero, 0, Zero quantity with new lot number without bins, If the physical Qty is zero you should give only existing lot item numbers)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1, -1, Negative quantity with bins, #Physical Quantities sho...)">
+                  </a> <!-- Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1, -1, Negative quantity with bins, #Physical Quantities sho...) -->
+                  <span class="method-name">Invalid_data</span>
+                  <span class="parameters">(Lot Inventory_Bins, Hyderabad, Bin1, lot1, -1, Negative quantity with bins, #Physical Quantities should not be negative)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, newlotwithbinzero, 0, Zero quantity and new lot number with bin...)">
+                  </a> <!-- Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, newlotwithbinzero, 0, Zero quantity and new lot number with bin...) -->
+                  <span class="method-name">Invalid_data</span>
+                  <span class="parameters">(Lot Inventory_Bins, Hyderabad, Bin1, newlotwithbinzero, 0, Zero quantity and new lot number with bins, #If the physical Qty is zero you should give only existing lot item numbers)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200,lot300, 1, Lot numbers mismatch without bins, #The LotNumb...)">
+                  </a> <!-- Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200,lot300, 1, Lot numbers mismatch without bins, #The LotNumb...) -->
+                  <span class="method-name">Invalid_data</span>
+                  <span class="parameters">(Lot Numbered WO Bins, Hyderabad, , lot200,lot300, 1, Lot numbers mismatch without bins, #The LotNumber Physical Qty and Lot Numbers are not matching)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalid_data(Lot Numbered WO Bins, Hyderabad, Bin1, lotnotbin, 1, Giving bin for non bin item, #This Item is not ...)">
+                  </a> <!-- Invalid_data(Lot Numbered WO Bins, Hyderabad, Bin1, lotnotbin, 1, Giving bin for non bin item, #This Item is not ...) -->
+                  <span class="method-name">Invalid_data</span>
+                  <span class="parameters">(Lot Numbered WO Bins, Hyderabad, Bin1, lotnotbin, 1, Giving bin for non bin item, #This Item is not using bins,Please remove the bins)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalid_data(Lot Numbered WO Bins	, Hyderabad, , chennailot, 0, Zero quantity and existing lot number from other ...)">
+                  </a> <!-- Invalid_data(Lot Numbered WO Bins	, Hyderabad, , chennailot, 0, Zero quantity and existing lot number from other ...) -->
+                  <span class="method-name">Invalid_data</span>
+                  <span class="parameters">(Lot Numbered WO Bins	, Hyderabad, , chennailot, 0, Zero quantity and existing lot number from other location without bins, If the physical Qty is zero you should give only existing lot item numbers)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lotwbin007, 0, Zero quantity and existing lot number from other...)">
+                  </a> <!-- Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lotwbin007, 0, Zero quantity and existing lot number from other...) -->
+                  <span class="method-name">Invalid_data</span>
+                  <span class="parameters">(Lot Inventory_Bins, Hyderabad, Bin1, lotwbin007, 0, Zero quantity and existing lot number from other location with bins, #If the physical Qty is zero you should give only existing lot item numbers)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200, -1, Negative quantity without bins, 	#Physical Quantities...)">
+                  </a> <!-- Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200, -1, Negative quantity without bins, 	#Physical Quantities...) -->
+                  <span class="method-name">Invalid_data</span>
+                  <span class="parameters">(Lot Numbered WO Bins, Hyderabad, , lot200, -1, Negative quantity without bins, 	#Physical Quantities should not be negative)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Without_lot_number(Lot Inventory_Bins, Hyderabad, Bin1, , 1, without giving serial numbers for item with bins)">
+                  </a> <!-- Without_lot_number(Lot Inventory_Bins, Hyderabad, Bin1, , 1, without giving serial numbers for item with bins) -->
+                  <span class="method-name">Without_lot_number</span>
+                  <span class="parameters">(Lot Inventory_Bins, Hyderabad, Bin1, , 1, without giving serial numbers for item with bins)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Without_lot_number(Lot Numbered WO Bins	, Hyderabad, , , 1, without giving serial numbers for item without bins)">
+                  </a> <!-- Without_lot_number(Lot Numbered WO Bins	, Hyderabad, , , 1, without giving serial numbers for item without bins) -->
+                  <span class="method-name">Without_lot_number</span>
+                  <span class="parameters">(Lot Numbered WO Bins	, Hyderabad, , , 1, without giving serial numbers for item without bins)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bin_mismatch(Lot Inventory_Bins, Hyderabad	, Sydney_1, lottest1, 1, invalid bin&amp; without giving bin testcase)">
+                  </a> <!-- bin_mismatch(Lot Inventory_Bins, Hyderabad	, Sydney_1, lottest1, 1, invalid bin& without giving bin testcase) -->
+                  <span class="method-name">bin_mismatch</span>
+                  <span class="parameters">(Lot Inventory_Bins, Hyderabad	, Sydney_1, lottest1, 1, invalid bin& without giving bin testcase)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lot_number_processing(Lot Inventory_Bins, Sydney, Sydney_1, lotwbin007, 1, adding lot number item to new location with bin...)">
+                  </a> <!-- lot_number_processing(Lot Inventory_Bins, Sydney, Sydney_1, lotwbin007, 1, adding lot number item to new location with bin...) -->
+                  <span class="method-name">lot_number_processing</span>
+                  <span class="parameters">(Lot Inventory_Bins, Sydney, Sydney_1, lotwbin007, 1, adding lot number item to new location with bin, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lot_number_processing(Lot Numbered WO Bins, Hyderabad, , lotwobin001, 1, zero quantity and existing lot number without bin...)">
+                  </a> <!-- lot_number_processing(Lot Numbered WO Bins, Hyderabad, , lotwobin001, 1, zero quantity and existing lot number without bin...) -->
+                  <span class="method-name">lot_number_processing</span>
+                  <span class="parameters">(Lot Numbered WO Bins, Hyderabad, , lotwobin001, 1, zero quantity and existing lot number without bins, lotwobin001, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lot_number_processing(Lot Numbered WO Bins, Hyderabad, , lotwobin003,lotwobin004, 1,1, Adding new lot numbers without bin,...)">
+                  </a> <!-- lot_number_processing(Lot Numbered WO Bins, Hyderabad, , lotwobin003,lotwobin004, 1,1, Adding new lot numbers without bin,...) -->
+                  <span class="method-name">lot_number_processing</span>
+                  <span class="parameters">(Lot Numbered WO Bins, Hyderabad, , lotwobin003,lotwobin004, 1,1, Adding new lot numbers without bin, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lot_number_processing(Lot Numbered WO Bins	, Banglore, , lotwobin002, 1, Adding  lot numbers  to the location without any ...)">
+                  </a> <!-- lot_number_processing(Lot Numbered WO Bins	, Banglore, , lotwobin002, 1, Adding  lot numbers  to the location without any ...) -->
+                  <span class="method-name">lot_number_processing</span>
+                  <span class="parameters">(Lot Numbered WO Bins	, Banglore, , lotwobin002, 1, Adding  lot numbers  to the location without any lot nrs before without bin, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lot_number_processing(Lot Inventory_Bins, Hyderabad	, Bin2, lotwbin005,lotwbin006, 2,2, same lot numbers in different bins...)">
+                  </a> <!-- lot_number_processing(Lot Inventory_Bins, Hyderabad	, Bin2, lotwbin005,lotwbin006, 2,2, same lot numbers in different bins...) -->
+                  <span class="method-name">lot_number_processing</span>
+                  <span class="parameters">(Lot Inventory_Bins, Hyderabad	, Bin2, lotwbin005,lotwbin006, 2,2, same lot numbers in different bins, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lot_number_processing(Lot Inventory_Bins	, Hyderabad	, Bin1, lotwbin005,lotwbin006, 2,2, Adding new lot numbers with bins,...)">
+                  </a> <!-- lot_number_processing(Lot Inventory_Bins	, Hyderabad	, Bin1, lotwbin005,lotwbin006, 2,2, Adding new lot numbers with bins,...) -->
+                  <span class="method-name">lot_number_processing</span>
+                  <span class="parameters">(Lot Inventory_Bins	, Hyderabad	, Bin1, lotwbin005,lotwbin006, 2,2, Adding new lot numbers with bins, null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lot_number_processing(Lot Inventory_Bins	, Hyderabad	, Bin1, lotwbin008, 1, zero quantity and existing lot number with bin...)">
+                  </a> <!-- lot_number_processing(Lot Inventory_Bins	, Hyderabad	, Bin1, lotwbin008, 1, zero quantity and existing lot number with bin...) -->
+                  <span class="method-name">lot_number_processing</span>
+                  <span class="parameters">(Lot Inventory_Bins	, Hyderabad	, Bin1, lotwbin008, 1, zero quantity and existing lot number with bins, lotwbin008, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Sindhuja\AppData\Local\Temp\testng-eclipse--207884923\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.testcases.Lot_number_items_testcases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'lot_number_processing')
+data.setCell(0, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(0, 3, 180019);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'lot_number_processing')
+data.setCell(1, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(1, 3, 178947);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'lot_number_processing')
+data.setCell(2, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(2, 3, 71433);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'lot_number_processing')
+data.setCell(3, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(3, 3, 68193);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'lot_number_processing')
+data.setCell(4, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(4, 3, 65110);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'lot_number_processing')
+data.setCell(5, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(5, 3, 64985);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'lot_number_processing')
+data.setCell(6, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(6, 3, 63019);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Invalid_data')
+data.setCell(7, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(7, 3, 53578);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Invalid_data')
+data.setCell(8, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(8, 3, 47005);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Invalid_data')
+data.setCell(9, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(9, 3, 46616);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Invalid_data')
+data.setCell(10, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(10, 3, 45552);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Invalid_data')
+data.setCell(11, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(11, 3, 44801);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Invalid_data')
+data.setCell(12, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(12, 3, 44242);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Invalid_data')
+data.setCell(13, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(13, 3, 43136);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Invalid_data')
+data.setCell(14, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(14, 3, 42771);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Invalid_data')
+data.setCell(15, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(15, 3, 41908);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Invalid_data')
+data.setCell(16, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(16, 3, 41885);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Invalid_data')
+data.setCell(17, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(17, 3, 41465);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'bin_mismatch')
+data.setCell(18, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(18, 3, 37868);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Without_lot_number')
+data.setCell(19, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(19, 3, 23917);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Without_lot_number')
+data.setCell(20, 2, 'com.qa.testcases.Lot_number_items_testcases')
+data.setCell(20, 3, 23434);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testcases.Lot_number_items_testcases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setExtent</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lot_number_processing(Lot Numbered WO Bins, Hyderabad, , lotwobin001, 1, zero quantity and existing lot number without bin...)</span>
+                <span class="method-start">18755 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_p...)</span>
+                <span class="method-start">197702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">198472 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lot_number_processing(Lot Numbered WO Bins	, Banglore, , lotwobin002, 1, Adding  lot numbers  to the location without any ...)</span>
+                <span class="method-start">215777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_p...)</span>
+                <span class="method-start">278796 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">279558 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lot_number_processing(Lot Numbered WO Bins, Hyderabad, , lotwobin003,lotwobin004, 1,1, Adding new lot numbers without bin,...)</span>
+                <span class="method-start">295109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_p...)</span>
+                <span class="method-start">360225 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">360974 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lot_number_processing(Lot Inventory_Bins	, Hyderabad	, Bin1, lotwbin005,lotwbin006, 2,2, Adding new lot numbers with bins,...)</span>
+                <span class="method-start">376687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_p...)</span>
+                <span class="method-start">444887 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">445641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lot_number_processing(Lot Inventory_Bins, Sydney, Sydney_1, lotwbin007, 1, adding lot number item to new location with bin...)</span>
+                <span class="method-start">461417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_p...)</span>
+                <span class="method-start">526403 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">527184 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lot_number_processing(Lot Inventory_Bins	, Hyderabad	, Bin1, lotwbin008, 1, zero quantity and existing lot number with bin...)</span>
+                <span class="method-start">544426 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_p...)</span>
+                <span class="method-start">724449 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">725295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lot_number_processing(Lot Inventory_Bins, Hyderabad	, Bin2, lotwbin005,lotwbin006, 2,2, same lot numbers in different bins...)</span>
+                <span class="method-start">743536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=lot_number_processing status=SUCCESS method=Lot_number_items_testcases.lot_number_p...)</span>
+                <span class="method-start">814977 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">815809 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Without_lot_number(Lot Numbered WO Bins	, Hyderabad, , , 1, without giving serial numbers for item without bins)</span>
+                <span class="method-start">831064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Without_lot_number status=SUCCESS method=Lot_number_items_testcases.Without_lot_num...)</span>
+                <span class="method-start">854498 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">855374 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Without_lot_number(Lot Inventory_Bins, Hyderabad, Bin1, , 1, without giving serial numbers for item with bins)</span>
+                <span class="method-start">872140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Without_lot_number status=SUCCESS method=Lot_number_items_testcases.Without_lot_num...)</span>
+                <span class="method-start">896057 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">896862 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invalid_data(Lot Numbered WO Bins	, Hyderabad, , chennailot, 0, Zero quantity and existing lot number from other ...)</span>
+                <span class="method-start">914668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lan...)</span>
+                <span class="method-start">961679 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">962435 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200, 1,2, Quantity mismatch without bins, #The LotNumber Physi...)</span>
+                <span class="method-start">977390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lan...)</span>
+                <span class="method-start">1024011 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1024766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200,lot300, 1, Lot numbers mismatch without bins, #The LotNumb...)</span>
+                <span class="method-start">1041894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lan...)</span>
+                <span class="method-start">1086139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1086863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invalid_data(Lot Numbered WO Bins, Hyderabad, , lot200, -1, Negative quantity without bins, 	#Physical Quantities...)</span>
+                <span class="method-start">1101814 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lan...)</span>
+                <span class="method-start">1144586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1145352 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lotwbin007, 0, Zero quantity and existing lot number from other...)</span>
+                <span class="method-start">1162665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lan...)</span>
+                <span class="method-start">1208219 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1209010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1, -1, Negative quantity with bins, #Physical Quantities sho...)</span>
+                <span class="method-start">1228606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lan...)</span>
+                <span class="method-start">1282184 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1282950 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1, 1,2, Quantity mismatch with bins, #The LotNumber Physical...)</span>
+                <span class="method-start">1298054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lan...)</span>
+                <span class="method-start">1341191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1341926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, lot1,lot2, 1, Lot numbers mismatch with bins, #The LotNumber Ph...)</span>
+                <span class="method-start">1358005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lan...)</span>
+                <span class="method-start">1399913 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1400630 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invalid_data(Lot Inventory_Bins, Hyderabad, Bin1, newlotwithbinzero, 0, Zero quantity and new lot number with bin...)</span>
+                <span class="method-start">1415887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lan...)</span>
+                <span class="method-start">1457353 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1458095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invalid_data(Lot Numbered WO Bins, Hyderabad, Bin1, lotnotbin, 1, Giving bin for non bin item, #This Item is not ...)</span>
+                <span class="method-start">1475853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lan...)</span>
+                <span class="method-start">1520654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1521375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invalid_data(Lot Numbered WO Bins, Hyderabad, , newlotwithzero, 0, Zero quantity with new lot number without bins...)</span>
+                <span class="method-start">1538436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invalid_data status=SUCCESS method=Lot_number_items_testcases.Invalid_data(java.lan...)</span>
+                <span class="method-start">1580322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1581114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bin_mismatch(Lot Inventory_Bins, Hyderabad	, Sydney_1, lottest1, 1, invalid bin& without giving bin testcase)</span>
+                <span class="method-start">1597136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=bin_mismatch status=SUCCESS method=Lot_number_items_testcases.bin_mismatch(java.lan...)</span>
+                <span class="method-start">1635004 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">1635757 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
